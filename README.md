@@ -1,50 +1,50 @@
-# BlendAI
-A Blender AddOn coded to integrate AI that builds anything that the user tells it to without having to directly interact with Blender.
+# BlendAI: Unleash Your Imagination with AI-Powered 3D Modeling
 
-## How to Use:
-### 1. Install Required Modules in Blender's Python Installation
+BlendAI is a Blender add-on that empowers you to create 3D models simply by describing them.  No more tedious manual manipulation – just tell BlendAI what you envision, and let the power of AI bring it to life.
 
-To install the required module "google-generativeai" in Blender's Python installation, follow these steps:
+## Getting Started
 
-- [Follow this tutorial](https://www.youtube.com/watch?v=DSRha-8Zk8w) to install the Python Module Installer.
-- Use the Python Module Installer to install "google-generativeai".
+### 1. Install the Required Module
 
-### 2. Get Your Gemini API Key and Add It to the Script
+BlendAI leverages the `google-generativeai` library. To install it within Blender's Python environment:
 
-To obtain your Gemini API key:
+1.  Follow the instructions in [this tutorial](https://www.youtube.com/watch?v=DSRha-8Zk8w) to install the Python Module Installer for Blender.
+2.  Use the Python Module Installer to install the `google-generativeai` package.
 
-- Go to [aistudio.google.com](https://aistudio.google.com/) and obtain an API key.
-- Replace "YOUR_API_KEY_HERE" in the addon Python script with your actual API key (ensure it's within the quotes).
+### 2. Configure Your API Key
 
-### 3. Install the Addon in Blender
+1.  Obtain your Gemini API key from [AI Studio](https://aistudio.google.com/).
+2.  Open the BlendAI Python script and replace the temporary tag with your actual API key, ensuring it remains within the quotes.
 
-To install the addon in Blender:
+### 3. Install BlendAI
 
-- Open Blender.
-- Go to Edit > Preferences > Addons > Install.
-- Navigate to the addon Python script in the window that pops up and click "Install".
+1.  Open Blender.
+2.  Navigate to Edit > Preferences > Add-ons > Install.
+3.  Locate the BlendAI Python script and click "Install."
 
-### 4. Enable the Addon
+### 4. Enable BlendAI
 
-After the addon appears in the list of addons:
+In the Add-ons tab, find BlendAI and enable it by checking the box next to its name.
 
-- Enable it by checking the small tick mark next to it.
+### 5. Start Creating!
 
-### 5. Start Using the Addon
+Access BlendAI by pressing N in the 3D Viewport to open the sidebar. You'll find it under "AI Code Generator 2."
 
-Once the addon is enabled:
+## Current Limitations
 
-- Access it by pressing N to bring up the right-side menu in the View3D workspace.
-- You will find the addon under AI Code Generator 2.
+BlendAI is still under development, and we're working to improve its reliability and functionality.  Current challenges include:
 
+- Intermittent scripting issues.
+- The need for more robust code execution to minimize errors.
+- Implementing comprehensive error handling for cases where Gemini doesn't provide valid code.
 
-## Issues
-- Still not scripting all the time.
-- Have to find ways to execute the code every time reducing errors.
-- Have to manage good error handling in case code is not given by Gemini.
+## Upcoming Features
 
+We're excited about the future of BlendAI and are actively developing the following features:
 
-## Future Fixes
-1) chatbot interface
-2) speech to model
-3) Adding log files so previous input can be stored so model can better understand what needs to be done.
+1.  **Better Implementation:** Reducing number of errors we face and increasing rate of Accuracy.
+2.  **Speech-to-Model:** Describe your creations using your voice, making the design process even more seamless.
+3.  **Enhanced Contextual Awareness:** Implement logging to store previous inputs, allowing BlendAI to better understand your evolving design vision.
+
+## Contributing
+We welcome contributions!  If you're interested in helping us improve BlendAI, please feel free to contribute.
