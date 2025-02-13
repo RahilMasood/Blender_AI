@@ -1,7 +1,7 @@
 bl_info = {
-    "name": "AI Code Generator 3",
+    "name": "AI Code Generator",
     "description": "Generates any code based on Prompt",
-    "author": "Rahil",
+    "author": "Rahil Masood",
     "version": (1, 1),
     "blender": (4, 3, 0),
     "location": "View3D > Sidebar > Cube Tools",
@@ -13,7 +13,7 @@ import google.generativeai as genai
 import textwrap
 import re
 
-genai.configure(api_key="AIzaSyCPOGLnUv1-hTp8Qt1GFTI_dJjAPKphbqs")
+genai.configure(api_key="INSERT API KEY HERE")
 
 generation_config = {
     "temperature": 0.7,
@@ -22,6 +22,7 @@ generation_config = {
     "max_output_tokens": 2048,
 }
 model = genai.GenerativeModel(model_name="gemini-1.0-pro", generation_config=generation_config)
+# Can change model name based on the API.
 
 def get_gemini_generated_code(prompt):
     try:
