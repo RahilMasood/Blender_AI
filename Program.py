@@ -1,13 +1,13 @@
 bl_info = {
     "name": "BlendAI",
     "description": "Generates and executes Blender scripts based on a prompt",
-    "author": "Rahil",
+    "author": "Rahil Masood",
     "version": (1, 3),
     "blender": (4, 3, 2),
     "location": "View3D > Sidebar > AI Generator",
     "category": "3D View",
 }
-#
+
 
 import bpy  # type: ignore
 import google.generativeai as genai
@@ -43,7 +43,7 @@ DEPRECATED_FUNCTIONS = [
     "bpy.ops.object.curve_add"
 ]
 
-# Implementing a Log file
+# Implementing Log files
 def read_log_history():
     """Read previous prompts and responses from the log file."""
     if not os.path.exists(LOG_FILE):
