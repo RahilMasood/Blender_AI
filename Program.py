@@ -31,7 +31,7 @@ model = genai.GenerativeModel(model_name="gemini-pro", generation_config=generat
 
 DEPRECATED_FUNCTIONS = [
     "bpy.ops.mesh.primitive_cube_add",
-    "bpy.ops.mesh.primitive_uv_sphere_add",
+    "bpy.ops.mesh.primitive_uv_sphere_add(size=)",
     "bpy.ops.mesh.primitive_cone_add",
     "bpy.ops.mesh.primitive_cylinder_add",
     "bpy.ops.object.mode_set",
