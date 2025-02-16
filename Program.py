@@ -7,7 +7,7 @@ bl_info = {
     "location": "View3D > Sidebar > AI Generator",
     "category": "3D View",
 }
-
+#
 
 import bpy  # type: ignore
 import google.generativeai as genai
