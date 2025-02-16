@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "AI Code Generator",
+    "name": "BlendAI",
     "description": "Generates and executes Blender scripts based on a prompt",
     "author": "Rahil",
     "version": (1, 3),
