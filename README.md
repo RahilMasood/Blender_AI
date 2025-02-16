@@ -32,7 +32,7 @@ In the Add-ons tab, find "BlendAI" and enable it by checking the box next to its
 
 ### 5. Start Creating!
 
-Access BlendAI by pressing `N` in the 3D Viewport to open the sidebar. You'll find it under "AI Code Generator."
+Access BlendAI by pressing `N` in the 3D Viewport to open the sidebar. You'll find it under "AI Generator"
 
 ## Current Limitations
 
